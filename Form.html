@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order form</title>
+    <style>
+        .SDT {
+            width: 50px;
+        }
+        .Email {
+            width: 345px;
+        }
+        .name {
+            width: 165px;
+        }
+        .khung {
+            width: 400px
+        }
+        .select {
+        background: linear-gradient(blue);
+        }
+    </style>
+</head>
+<body>
+    <form method="get" action="simpleform.html">
+ <fieldset class="khung">
+<h2> Order Form</h2>
+<h3> What would you like to buy?<h3> 
+<select  class="select">
+    <option value="   ">A</option> <br>
+    <option>B (+  0.5$)</option>
+    <option>C (+  0.5$)</option>
+</select>
+<h3> How many would you like order? </h3>
+<label><input name="price"type="radio"> 1 - $10</label> <br>
+<label><input name="price"type="radio"> 2 - $20</label> <br>
+<label><input name="price"type="radio"> 3 - $30</label> <br>
+<h3> Name </h3>
+<input class="name" type="text" value="Firstname" name="Firstname"> 
+<input class="name" type="text" value="Lastname" name="Lastname"> 
+<h3> Email </h3>
+<input class="Email" type="text" value="Email" name="Email"> 
+<h3> Phone number </h3>
+<input class="SDT" type="number" name="SDT"> - <input class="SDT" type="number" name="SDT"> - <input class="SDT" type="number" name="SDT">
+</fieldset>
+    </form>
+</body>
+</html>
